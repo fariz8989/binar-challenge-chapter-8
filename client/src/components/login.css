@@ -1,0 +1,56 @@
+body{
+background-color: white;
+font-family: 'Bebas Neue',cursive;
+}
+label,input{
+    margin: 0.25rem 0;
+    font-size: 1.25rem;
+}
+input[type="text"], input[type="password"] {
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    border-bottom: solid 2px;
+    background-color: #EEEEEE;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    margin: 10px 0;
+    height: 25px;
+    background-color: transparent;
+  }
+  .grid-display{
+    display: grid;
+    grid-template-rows: repeat(1fr,2);
+    gap: 1vw;
+    padding: 10px;
+  }
+.input-section{
+    text-align: center;
+    background-color: #FFB343;
+    padding: 10px 1rem;
+    border-radius: 10px;
+    grid-row: 1/2;
+
+}
+.input{
+    text-align: left;
+}
+button{
+    border: solid black 3px;
+    width: 100%;
+    background-color: #FFB343;
+    color: black;
+    border-radius: 8px;
+    padding: 0.5rem;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+button:hover{
+    background-color: black;
+    color: #FFB343;
+}
+.button{
+    text-align: center;
+    margin: 10px;
+   
+}
